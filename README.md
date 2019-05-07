@@ -27,7 +27,7 @@ considers immensely rewarding and aesthaetically satisfying.
 
 In addition to being an excellent tool of thought, k is also an astonishingly 
 efficient computer language. The entire system, a tiny binary executable only
-100 kilobytes in size without a single external dependency and fits comfortably in 
+100 kilobytes in size without a single external dependency that fits comfortably in 
 the cache of a commodity CPU, implements fundamental algorighms, data structures, 
 techniques and computational primitives that withstood the test of many decades 
 of production use in some of the world's most demanding data processing environments. 
