@@ -6,7 +6,7 @@ language called `k`, provided a small worldwide community of highly skilled
 programmers with a unique integrated platform for creating high performance 
 applications for financial and other data-intensive applications.
 
-While implementation of similar systems in other languages such as C++ and Java 
+While implementations of similar systems in other languages such as C++ and Java 
 often involve thousands of lines of code written by large teams and built on top of 
 complex library stacks, a typical k solution involves several factors of magninude 
 less code, usually implemented by a small and agile team, and rarely requires external 
