@@ -1,14 +1,29 @@
 # k7 tutorial
 Dennis Shasha
 
-Since 1992, Arthur Whitney's k and its derivatives have served a small number of 
-highly skilled (and highly paid) programmers to create high performance applications
-for finance and other data-intensive applications.
+Since 1992, Arthur Whitney, the principial designer and architect of a computer 
+language called `k`, provided an elite worldwide community of highly skilled 
+programmers with a unique integrated platform for creating high performance 
+applications for financial and other data-intensive applications.
 
-While implementation efforts in other languages such as C++ and Java (and to a 
-lesser extent Python) often involve thousands of lines of code, much of it built 
-on top of libraries, the typical k applications is on the order of scores of lines 
-of code without the need for libraries. The power is in the language itself.
+While implementation of similar systems in other languages such as C++ and Java 
+often involve thousands of lines of code written by large teams and built on top of 
+complex library stacks, a typical k solution involves several factors of magninude 
+less code, usually implemented by small and agile teams, and rarely requires external 
+dependencies. The k paradigm enables unprecedented efficiency and ease of prototyping, 
+development, testing, deployment and support of highly efficient and robust solutions 
+for mission-critical tasks.
+
+The source of the power is in the language itself which was designed from ground up 
+primarily as a *tool of thought*. The vocabulary, syntax and the choice of abstractions 
+offered by the language all work together to suggest and support creative, focused 
+and succinct thinking about a problem at hand and finding an efficient and elegant 
+solution for it. Contrary to the majority of other programming paradigms, a k 
+programmer spends most of the time on thinking rather than typing. The actual attack
+on the problem is performed exclusively via REPL. Rapid interactive prototyping 
+driven by agile and fluent train of thought and interrupted by as few keystrokes as 
+possible is the essence of the programming experience in k.
+
 
 This tutorial aims to take users familiar with conventional languages to become
 competent programmers in the latest iteration of k, k7. The tutorial introduces 
@@ -20,20 +35,22 @@ the tutorial or add to the examples.
 
 ## section 0: installation and basics
 
-As of May 2019, go to https://anaconda.org/ and follow the instructions. Shell
-shell integration option is recommended. Once you install anaconda, install shaktidb:
+As of May 2019, k7 is distributed via Anaconda in form of binary builds for Linux and macOS.
+Go to https://anaconda.org/ and follow the instructions. Anaconda shell integration option 
+is recommended. Once you install Anaconda, install shaktidb:
 
 `$ conda install -c shaktidb shakti`
 
-New builds are published several times a week, make sure to use latest version:
+New builds are usually published several times a week, make sure to always use a latest 
+version:
 
 `$ conda update -c shaktidb shakti`
 
-start k session:
+To start k session:
 
 `$ k`
 
-At any time during session, you can:
+At any time during k session, you can:
 
 `\h` quick reference 
 `\l` changelog
@@ -51,7 +68,7 @@ Comments start with `/`. When used inline, prepend a space:
 By convention, k programmers tend to use capitals very sparingly, typically only 
 when absolutely necessary. This applies both to code and comments. Identifiers in
 CamelCase are generally unwelcome, and c_style underscores, although permitted, 
-are rarely a good idea since underscore is also k operator. Function and variable 
+are rarely a good idea since underscore is also an operator. Function and variable 
 identifiers are often boiled down to an absolute minumum, short identifiers 1-3 
 chars long are commonplace, which does not impact readability and comprehension
 given that function/variable definitions are adequately annotated. Short identifiers 
@@ -60,7 +77,24 @@ well-formatted k program typically fits on a single screen and requires
 little or no scrolling, and jumping between source files is much less frequent. This 
 way, when the entire program fits into your visual buffer, "cryptic" identifiers 
 are no longer a problem, because their annotated declarations are also right in 
-front of you.
+front of you:
+
+```
+kei:42 / kenneth eugene iverson
+```
+
+As you have correctly guessed, the assignment operator in k is a colon. This fact
+has a lot to do with k heritage, which is easily elucidated by a simple, yet profound
+thought experiment. Consider the following line of code:
+
+```
+x = x + 1
+```
+
+Although the meaning of this expression is intuitively clear to any programmer, any
+mathematician will respond to it with a succinct "No, it isn't". 
+
+
 
 
 
