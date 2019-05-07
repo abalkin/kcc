@@ -15,13 +15,13 @@ development, testing, deployment and support of highly efficient and robust syst
 
 The power is in the language itself which was designed from ground up 
 primarily as a *tool of thought*. The vocabulary, syntax and the choice of abstractions 
-offered by the language all work together to foster and support creative, focused 
+offered by the language all work together to foster and propel creative, focused 
 and succinct thinking about a problem at hand and finding an efficient and elegant 
 solution for it. Contrary to the majority of other programming workflows, a k 
-programmer spends most of the time on thinking rather than typing and navigating
-the source code tree. The actual attack on the problem is performed exclusively 
-via REPL. Rapid interactive prototyping driven by agile and fluent thought 
-process and interrupted by as few keystrokes as possible is the essence of the 
+programmer spends most of his time on thinking about the problem rather than typing 
+and navigating the source code tree. The actual attack on the problem is performed 
+exclusively via REPL. Rapid interactive prototyping driven by agile and fluent thought 
+process which is only interrupted by as few keystrokes as possible is the essence of the 
 programming experience in k — an experience that each and every k programmer 
 considers immensely rewarding and aesthaetically satisfying.
 
