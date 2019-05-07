@@ -9,7 +9,7 @@ applications for financial and other data-intensive applications.
 While implementation of similar systems in other languages such as C++ and Java 
 often involve thousands of lines of code written by large teams and built on top of 
 complex library stacks, a typical k solution involves several factors of magninude 
-less code, usually implemented by small and agile teams, and rarely requires external 
+less code, usually implemented by a small and agile team, and rarely requires external 
 dependencies. The k paradigm enables unprecedented efficiency and ease of prototyping, 
 development, testing, deployment and support of highly efficient and robust solutions 
 for mission-critical tasks.
