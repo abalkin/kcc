@@ -22,20 +22,19 @@ the source code tree. The actual attack on the problem is performed exclusively
 via REPL. Rapid interactive prototyping driven by agile and fluent thought 
 process and interrupted by as few keystrokes as possible is the essence of the 
 programming experience in k — an experience that each and every k programmer 
-considers immensely rewarding and aesthaetically 
-satisfying.
+considers immensely rewarding and aesthaetically satisfying.
 
-In addition to being an excellent tool of thought for problem solving, k is also an 
-astonishingly efficient language. The entire system, a tiny binary executable only
-100 kilobytes in size, implements fundamental algorighms, data structures, techniques
-and computational primitives that withstood the test of many decades of production use
-in some of the world's most demanding data processing environments. The inner components 
-of the system are polished to fit together and complement each other to deliver
-performance which many outsiders find very difficult to believe at firstl. It is also
-not uncommon for k newcomers to experience total shock when they first witness what 
-kind of power one can wield with a few precise keystrokes.
-
-
+In addition to being an excellent tool of thought, k is also an astonishingly 
+efficient computer language. The entire system, a tiny binary executable only
+100 kilobytes in size without a single external dependency and fits comfortably in 
+the cache of a commodity CPU, implements fundamental algorighms, data structures, 
+techniques and computational primitives that withstood the test of many decades 
+of production use in some of the world's most demanding data processing environments. 
+The inner components of the system are polished to fit together and complement each 
+other to deliver performance which many outsiders find very difficult to believe 
+at first. It is also not uncommon for k newcomers to experience total shock when 
+they first realize what kind of power they can wield with just a few precise
+keystrokes.
 
 This tutorial aims to take users familiar with conventional languages to become
 competent programmers in the latest iteration of k, k7. The tutorial introduces 
