@@ -1,8 +1,7 @@
 # k7 tutorial
-Dennis Shasha
 
 Since 1992, Arthur Whitney, the principial designer and architect of a computer 
-language called `k`, provided an elite worldwide community of highly skilled 
+language called `k`, provided a small worldwide community of highly skilled 
 programmers with a unique integrated platform for creating high performance 
 applications for financial and other data-intensive applications.
 
@@ -11,18 +10,31 @@ often involve thousands of lines of code written by large teams and built on top
 complex library stacks, a typical k solution involves several factors of magninude 
 less code, usually implemented by a small and agile team, and rarely requires external 
 dependencies. The k paradigm enables unprecedented efficiency and ease of prototyping, 
-development, testing, deployment and support of highly efficient and robust solutions 
-for mission-critical tasks.
+development, testing, deployment and support of highly efficient and robust systems.
 
-The source of the power is in the language itself which was designed from ground up 
+The power is in the language itself which was designed from ground up 
 primarily as a *tool of thought*. The vocabulary, syntax and the choice of abstractions 
 offered by the language all work together to suggest and support creative, focused 
 and succinct thinking about a problem at hand and finding an efficient and elegant 
-solution for it. Contrary to the majority of other programming paradigms, a k 
-programmer spends most of the time on thinking rather than typing. The actual attack
-on the problem is performed exclusively via REPL. Rapid interactive prototyping 
-driven by agile and fluent train of thought and interrupted by as few keystrokes as 
-possible is the essence of the programming experience in k.
+solution for it. Contrary to the majority of other programming workflows, a k 
+programmer spends most of the time on thinking rather than typing and navigating
+the source code tree. The actual attack on the problem is performed exclusively 
+via REPL. Rapid interactive prototyping driven by agile and fluent thought 
+process and interrupted by as few keystrokes as possible is the essence of the 
+programming experience in k — an experience that each and every k programmer 
+considers immensely rewarding and aesthaetically 
+satisfying.
+
+In addition to being an excellent tool of thought for problem solving, k is also an 
+astonishingly efficient language. The entire system, a tiny binary executable only
+100 kilobytes in size, implements fundamental algorighms, data structures, techniques
+and computational primitives that withstood the test of many decades of production use
+in some of the world's most demanding data processing environments. The inner components 
+of the system are polished to fit together and complement each other to deliver
+performance which many outsiders find very difficult to believe at firstl. It is also
+not uncommon for k newcomers to experience total shock when they first witness what 
+kind of power one can wield with a few precise keystrokes.
+
 
 
 This tutorial aims to take users familiar with conventional languages to become
