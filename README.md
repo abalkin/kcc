@@ -53,7 +53,7 @@ is recommended. Once you install Anaconda, install shaktidb:
 
 `$ conda install -c shaktidb shakti`
 
-New builds are usually published several times a week, make sure to always use a latest 
+New builds are usually published several times a week, make sure to always use the latest 
 version:
 
 `$ conda update -c shaktidb shakti`
