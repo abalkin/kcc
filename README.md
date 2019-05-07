@@ -1,4 +1,5 @@
 # k7 tutorial
+Dennis Shasha
 
 Since 1992, Arthur Whitney, the principial designer and architect of a computer 
 language called `k`, provided a small worldwide community of highly skilled 
@@ -14,7 +15,7 @@ development, testing, deployment and support of highly efficient and robust syst
 
 The power is in the language itself which was designed from ground up 
 primarily as a *tool of thought*. The vocabulary, syntax and the choice of abstractions 
-offered by the language all work together to suggest and support creative, focused 
+offered by the language all work together to foster and support creative, focused 
 and succinct thinking about a problem at hand and finding an efficient and elegant 
 solution for it. Contrary to the majority of other programming workflows, a k 
 programmer spends most of the time on thinking rather than typing and navigating
