@@ -60,11 +60,12 @@ that takes years. We heard that one can teach oneself Java in 24 hours, but we
 do not feel qualified to talk about that. We are going to talk about `k`, and the
 the curve will be steep, but we value your time, so it will be brutal.
 
-## get set
+## where is k
 
-k is distributed via Anaconda in form of binary builds for Linux and macOS. Go to 
-https://anaconda.org/ and follow the instructions. Anaconda shell integration option 
-is recommended. Once you install Anaconda, install shaktidb:
+A trial version of `k` with 1GB workspace cap is distributed for free via Anaconda
+in form of binary builds for Linux and macOS. Go to https://anaconda.org/ and follow
+the instructions. Anaconda shell integration option is recommended. Once you 
+install Anaconda, install shaktidb:
 
 `$ conda install -c shaktidb shakti`
 
@@ -75,7 +76,9 @@ version:
 
 To start k session:
 
-`$ k`
+`kelas@failbowl ~ $ k
+2019-04-21 15:38:18 40core 512gb avx2 © shakti m2.0 prod
+`
 
 At any time during k session, you can:
 
