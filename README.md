@@ -37,7 +37,7 @@ systems that quickly return the investment.
 ## what is k
 
 `k` is a very remarkable piece of software. Formally, it is an interpreter of a 
-computer language, and then some more.
+computer language, and then some.
 
 The power is in the language itself which is designed from ground up primarily as 
 a *tool of thought*. The vocabulary, syntax and the choice of abstractions 
