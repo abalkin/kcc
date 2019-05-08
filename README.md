@@ -36,7 +36,7 @@ computer language.
 The power is in the language itself which is designed from ground up primarily as 
 a *tool of thought*. The vocabulary, syntax and the choice of abstractions 
 offered by the language all work together to foster and propel creative, focused 
-and succinct thinking about a problem at hand and finding an efficient and elegant 
+and succinct thinking about a problem and quickly finding an efficient and elegant 
 solution for it. Contrary to the majority of other programming workflows, a k 
 programmer spends most of his time on thinking about the problem rather than typing 
 and navigating the source code tree. The actual attack on the problem is performed 
