@@ -1,20 +1,38 @@
-# k7 tutorial
-Dennis Shasha
+# k crash course
+"kelas" <me@kel.as>
 
-Since 1992, Arthur Whitney, the principial designer and architect of a computer 
-language called `k`, provided a small worldwide community of highly skilled 
-programmers with a unique integrated platform for creating high performance 
-applications for financial and other data-intensive applications.
+## who is k
 
-While implementations of similar systems in other languages such as C++ and Java 
-often involve thousands of lines of code written by large teams and built on top of 
-complex library stacks, a typical k solution involves several factors of magninude 
-less code, usually implemented by a small and agile team, and rarely requires external 
-dependencies. The k paradigm enables unprecedented efficiency and ease of prototyping, 
-development, testing, deployment and support of highly efficient and robust systems.
+Arthur Whitney, the principial designer and architect of a computer language
+called `k`, has become a central figure in an elite, tight-knit worldwide community
+of highly skilled programmers. Since early 90's, he provides new revisions of one 
+single product, a unique integrated platform for creating high performance 
+applications for financial and other data-intensive applications. It is very 
+remarkable piece of software.
 
-The power is in the language itself which was designed from ground up 
-primarily as a *tool of thought*. The vocabulary, syntax and the choice of abstractions 
+There is a very high chance that you heard something about the legend of Arthur Whitney
+and his language; what is less likely is that you have ever met someone who told 
+you he or she is a professional k probrammer, because in their areas is often stated in their 
+contracts what they can and cannot talk about, and `k` language doesn't really need 
+any extra publicity anyway.
+
+What is much easier to hear is about implementations of similar systems in languages
+such as C++ or Java that involve thousands of lines of code written by large teams 
+and built on top of complex library stacks. What these types are not allowed to tell tou
+is that the projects they are working on are way over budget, totally past deadline and
+implementing an an utterly outdated spec.
+
+In comparision, a typical k solution involves several factors of magninude less code, 
+usually implemented by a small and agile team or even a single single individual, rarely
+requires external dependencies and is usually complete on time. The platform is not free
+and is not not cheap, but the k paradigm enables unprecedented efficiency and ease of 
+prototyping, development, testing, deployment and support of highly efficient and robust 
+systems that quickly return the investment.
+
+## what is k
+
+The power is in the language itself which is designed from ground up primarily as 
+a *tool of thought*. The vocabulary, syntax and the choice of abstractions 
 offered by the language all work together to foster and propel creative, focused 
 and succinct thinking about a problem at hand and finding an efficient and elegant 
 solution for it. Contrary to the majority of other programming workflows, a k 
@@ -37,18 +55,15 @@ at first. It is also not uncommon for k newcomers to experience total shock when
 they first realize what kind of power they can wield with just a few precise
 keystrokes.
 
-This tutorial aims to take users familiar with conventional languages to become
-competent programmers in the latest iteration of k, k7. The tutorial introduces 
-language concepts, then presents examples. A good way to learn the language is 
-to try to program the examples on your own.
+This crash course is not looking to make you an expert k programmer, because
+that takes years. We heard that one can teach oneself Java in 24 hours, but we 
+do not feel qualified to judge about that. We are going to talk about k, and the
+the curve will be steep, but we value your time.
 
-Readers who are already familiar with a previous version of k may wish to skim 
-the tutorial or add to the examples.
+## get set
 
-## section 0: installation and basics
-
-As of May 2019, k7 is distributed via Anaconda in form of binary builds for Linux and macOS.
-Go to https://anaconda.org/ and follow the instructions. Anaconda shell integration option 
+k is distributed via Anaconda in form of binary builds for Linux and macOS. Go to 
+https://anaconda.org/ and follow the instructions. Anaconda shell integration option 
 is recommended. Once you install Anaconda, install shaktidb:
 
 `$ conda install -c shaktidb shakti`
@@ -64,8 +79,10 @@ To start k session:
 
 At any time during k session, you can:
 
-`\h` quick reference 
+`\h` quick reference
+
 `\l` changelog
+
 `\\` quit
 
 Comments start with `/`. When used inline, prepend a space:
@@ -80,14 +97,14 @@ Comments start with `/`. When used inline, prepend a space:
 By convention, k programmers tend to use capitals very sparingly, typically only 
 when absolutely necessary. This applies both to code and comments. Identifiers in
 CamelCase are generally unwelcome, and c_style is not permitted at all since 
-underscore is an operator. Function and variable identifiers are often boiled down 
+underscore is an operator. Function and variable identifiers are very often boiled down 
 to an absolute minumum, short identifiers 1-3 chars long are commonplace, which does 
 not impact readability and comprehension given that function/variable definitions are 
-adequately annotated. Short identifiers might sound like a bad idea to an OOP 
+adequately annotated. Short identifiers might sound like a bad idea to a Java 
 programmer, but a well-structured and well-formatted k program typically fits on 
 a single screen and requires little or no scrolling, and jumping between source 
-files is much less frequent. This way, when the entire program fits into your 
-visual buffer, "cryptic" identifiers are no longer a problem, because their 
+files is more of an exception than a rule. The way our brain works is when the 
+entire program fits into your visual buffer, "cryptic" identifiers are no longer a problem, because their 
 annotated declarations are also right in front of you:
 
 ```
