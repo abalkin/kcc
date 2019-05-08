@@ -12,7 +12,7 @@ remarkable piece of software.
 
 There is a very high chance that you heard something about the legend of Arthur Whitney
 and his language; what is less likely is that you have ever met someone who told 
-you he or she is a professional k probrammer, because in their areas is often stated in their 
+you he or she is a professional k programmer, because in their areas is often stated in their 
 contracts what they can and cannot talk about, and `k` language doesn't really need 
 any extra publicity anyway.
 
