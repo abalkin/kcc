@@ -1,5 +1,5 @@
 # k crash course
-"kelas" <me@kel.as>
+kelas <me@kel.as>
 
 ## who is k
 
@@ -78,23 +78,28 @@ use the latest version:
 
 `$ conda update -c shaktidb shakti`
 
-## k general ropes
+## starting k
 
-To start a `k` session:
+Assiming conda's bin is in you PATH, start a `k` session like so:
 
-`kelas@failbowl ~ $ k
+```kelas@failbowl ~ $ k
 2019-04-21 15:38:18 40core 512gb avx2 © shakti m2.0 prod
-`
+```
 
-At any time during k session, you can:
+At any time during `k` session, you can:
 
-`\h` quick reference (NSFW)
+`\h` quick reference (seriously NSFW)
 
 `\l` changelog
 
 `\\` bail
 
-Comments start with `/`. When used inline, prepend a space:
+
+## style of k
+
+People who don't annotate their `k` code, quickly end up coding Java for food, unless 
+they are Arthur Whitney, but we dare to assume you are not quite there yet, so 
+comments start with `/`.  When used inline, prepend a space:
 
 ```
 /line comment
@@ -103,14 +108,22 @@ Comments start with `/`. When used inline, prepend a space:
 42 /inline comment
 ```
 
-By convention, k programmers tend to use capitals very sparingly, typically only 
-when absolutely necessary. This applies both to code and comments. Identifiers in
-CamelCase are generally unwelcome, and c_style is not permitted at all since 
-underscore is an operator. Function and variable identifiers are very often boiled down 
-to an absolute minumum, short identifiers 1-3 chars long are commonplace, which does 
-not impact readability and comprehension given that function/variable definitions are 
-adequately annotated. Short identifiers might sound like a bad idea to a Java 
-programmer, but a well-structured and well-formatted k program typically fits on 
+*Identation* in `k` is a really painful subject. Basically, what you want is *no identation*.
+This means if your function body is getting so larger than life that you are tempted to split it
+into lines, you either need to refactor, or your entire train of thought doesn't hold any 
+water at all and you need to go back to the blackboard. Sometimes, however, identation is ok,
+and it is *always* one space. Tabs will be frowned upon, because they will end up taking up
+other people's precious screen real estate, and humans generally get really itchy when it comes 
+to brick and mortar.
+
+*Capitals*, by convention, are used by `k` programmers very sparingly, normally as a last resort 
+measure. This applies both to code and comments. Identifiers in CamelCase is universally 
+considered bad form but sometimes tolerated, and `c_style` is not permitted at all since 
+underscore is an operator. Function and variable identifiers are very often boiled down to 
+an absolute minumum, short identifiers 1-3 chars long are commonplace, which does not impact 
+readability and comprehension given that definitions are adequately annotated. Short 
+identifiers might sound like a bad idea to a Java programmer not used to identifiers shorter
+than 100 bytes, but a well-structured and well-formatted k program typically fits on 
 a single screen and requires little or no scrolling, and jumping between source 
 files is more of an exception than a rule. The way our brain works is when the 
 entire program fits into your visual buffer, "cryptic" identifiers are no longer a 
@@ -119,6 +132,25 @@ problem, because their annotated declarations are also right in front of you:
 ```
 kei:42 / kenneth eugene iverson
 ```
+
+*Function* is a first-class citizen, we have lambdas, evals and applys are all there. 
+It takes an effort to believe it, but `k` is actually more lispy than certain Lisps,
+only you don't need to get past any parens. `car` is not quite there because there are 
+no *linked lists*, because `k` is designed to be *fast*.
+
+An empitome of brevity and wit, all functions in `k`, unless stated otherwise, have up 
+to three implict arguments, `x`, `y` and `z`. Here's your first function:
+
+```
+f:{x+y+z}   /declaration
+f[1;2;3]    /call
+  6         /result
+  
+f:{x*x}    /redeclaration
+f 2        /call, can omit brackets
+  5        /gotcha, doesn't happen
+```
+
 
 As you have correctly guessed, the *assignment* operator in k is a  *colon*. This fact
 has a lot to do with k heritage, which is easily elucidated by a simple, yet profound
