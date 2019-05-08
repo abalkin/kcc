@@ -160,7 +160,7 @@ f 2          /one arg, ok to omit brackets
 ```
 
 
-**Assignment** operatior, as you have correctly guessed, a *colon*. This fact
+**Assignment** operatior, as you have correctly guessed, is a *colon*. This fact
 has a lot to do with k heritage, which is best elucidated by a simple, yet profound
 thought experiment. Consider the following line of code:
 
@@ -176,7 +176,10 @@ that someone is trying to make you adopt a totally new way of thinking. Make no 
 this is what this document is all about, but you know you want to give it a try.
 
 
+## actual crash into k
 
+**Disclaimer** is to inform you that nowhere above you were promised a gentle 
+introduction. You have been warned. From here on, you are on your own with your intelligence and grit.
 
 
 
