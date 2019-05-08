@@ -6,7 +6,7 @@ not for the faint of heart*
 
 ## who is k
 
-`k` is basically Arthur Whitney, the principial designer and architect of a computer language
+`k` is basically Arthur Whitney, the principial designer of a computer language
 called `k`, who is an iconic figure in an elite, tight-knit global community
 of some of the sharpest and sophisticated programmers working for some of the most
 influential institutions on the planet. Since early 90's, he provides them with 
