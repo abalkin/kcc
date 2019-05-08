@@ -79,23 +79,22 @@ Comments start with `/`. When used inline, prepend a space:
 
 By convention, k programmers tend to use capitals very sparingly, typically only 
 when absolutely necessary. This applies both to code and comments. Identifiers in
-CamelCase are generally unwelcome, and c_style underscores, although permitted, 
-are rarely a good idea since underscore is also an operator. Function and variable 
-identifiers are often boiled down to an absolute minumum, short identifiers 1-3 
-chars long are commonplace, which does not impact readability and comprehension
-given that function/variable definitions are adequately annotated. Short identifiers 
-might sound like a bad idea to an OOP programmer, but a well-structured and 
-well-formatted k program typically fits on a single screen and requires 
-little or no scrolling, and jumping between source files is much less frequent. This 
-way, when the entire program fits into your visual buffer, "cryptic" identifiers 
-are no longer a problem, because their annotated declarations are also right in 
-front of you:
+CamelCase are generally unwelcome, and c_style is not permitted at all since 
+underscore is an operator. Function and variable identifiers are often boiled down 
+to an absolute minumum, short identifiers 1-3 chars long are commonplace, which does 
+not impact readability and comprehension given that function/variable definitions are 
+adequately annotated. Short identifiers might sound like a bad idea to an OOP 
+programmer, but a well-structured and well-formatted k program typically fits on 
+a single screen and requires little or no scrolling, and jumping between source 
+files is much less frequent. This way, when the entire program fits into your 
+visual buffer, "cryptic" identifiers are no longer a problem, because their 
+annotated declarations are also right in front of you:
 
 ```
 kei:42 / kenneth eugene iverson
 ```
 
-As you have correctly guessed, the assignment operator in k is a colon. This fact
+As you have correctly guessed, the *assignment* operator in k is a  *colon*. This fact
 has a lot to do with k heritage, which is easily elucidated by a simple, yet profound
 thought experiment. Consider the following line of code:
 
@@ -104,7 +103,11 @@ x = x + 1
 ```
 
 Although the meaning of this expression is intuitively clear to any programmer, any
-mathematician will respond to it with a succinct "No, it isn't". 
+mathematician will instantly respond with a succinct *"no, it is not"*. This gives
+and excellent hint about how to approach the rest of this document: pretend you never
+wrote a program in your life before, which is a simple trick to overcome the feeling 
+that someone is trying to make you adopt a totally new way of thinking (which is, 
+make no mistake, what this document is all about).
 
 
 
