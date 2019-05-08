@@ -4,8 +4,8 @@ kelas <me@kel.as>
 ## who is k
 
 Arthur Whitney, the principial designer and architect of a computer language
-called `k`, has become a central figure of an elite, tight-knit worldwide community
-of highly skilled programmers. Since early 90's, he provides new revisions of one 
+called `k`, has become a central figure of an elite, tight-knit global community
+of highly skilled programmers. Since early 90's, he provides them with new revisions of one 
 single product, a unique integrated platform for creating high performance 
 applications for financial and other data-intensive applications. It is very 
 remarkable piece of software.
