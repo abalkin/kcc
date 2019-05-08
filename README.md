@@ -106,8 +106,8 @@ Although the meaning of this expression is intuitively clear to any programmer, 
 mathematician will instantly respond with a succinct *"no, it is not"*. This gives
 and excellent hint about how to approach the rest of this document: pretend you never
 wrote a program in your life before, which is a simple trick to overcome the feeling 
-that someone is trying to make you adopt a totally new way of thinking (which is, 
-make no mistake, what this document is all about).
+that someone is trying to make you adopt a totally new way of thinking (which, 
+make no mistake, is what this document is all about, but why not give it try?)
 
 
 
