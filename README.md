@@ -12,8 +12,8 @@ of some of the sharpest and sophisticated programmers working for some of the mo
 influential institutions on the planet. Since early 90's, he provides them with 
 consistently ever more powerful revisions of one single product he has been working on
 his entire life, a unique integrated platform for creating very high performance applications
-that deal with very large amounts of data. And they like and appreciate Arthur at as much
-as his product.
+that deal with very large amounts of data. And they like and appreciate Arthur at least as 
+much as his product.
 
 There is a very high chance that you heard the legend of Arthur Whitney and his language; 
 a **lot** of people do; what is less likely is that you have ever met 
