@@ -89,8 +89,11 @@ use the latest version:
 
 Assiming conda's `bin` is in you PATH, start a `k` session like so:
 
-```kelas@failbowl ~ $ k
+```
+kelas@failbowl ~ $ k
 2019-04-21 15:38:18 40core 512gb avx2 © shakti m2.0 prod
+ 2+2
+4
 ```
 
 At any time during `k` session, you can:
@@ -150,13 +153,13 @@ stated otherwise, have up to three implict arguments, `x`, `y` and `z` respectiv
 Here are your first functions:
 
 ```
-f:{x+y+z}    /declaration
-f[1;2;3]     /call
-  6          /result
+ f:{x+y+z}    /declaration
+ f[1;2;3]     /call
+6             /result
   
-f:{x*x}      /redeclaration
-f 2          /one arg, ok to omit brackets
-  5          /gotcha
+ f:{x*x}      /redeclaration
+ f 2          /one arg, ok to omit brackets
+5             /gotcha
 ```
 
 
