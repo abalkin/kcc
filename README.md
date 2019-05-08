@@ -114,10 +114,10 @@ with `/`. When used inline, prepend a space:
 ```
 
 **Identation** in `k` is a painful subject. Basically, what you want is *no identation*.
-This means if your function body is getting so larger than life that you are tempted to split it
-into lines, you either need to refactor, or your entire train of thought doesn't hold any 
-water at all and you need to go back to the blackboard. Sometimes, however, identation is ok,
-and it is *always* one space. Tabs will be frowned upon, because they will end up taking up
+This means if your function body is getting so much larger than life that you are tempted to split it
+into lines, you either need to refactor, or your entire train of thought got derailed and you 
+need to go back to the blackboard. Sometimes, however, identation is ok,
+and it is **always one space**. Tabs will be frowned upon, because they will end up taking up
 other people's precious screen real estate, and humans generally get really itchy when it comes 
 to brick and mortar.
 
