@@ -60,6 +60,11 @@ that takes years. We heard that one can teach oneself Java in 24 hours, but we
 do not feel qualified to talk about that. We are going to talk about `k`, and the
 the curve will be steep, but we value your time, so it will be brutal.
 
+## price of k
+
+If you /have/ to ask, you can't afford it. If you know /how/ to ask, you will get it 
+for free and for life.
+
 ## where is k
 
 A trial version of `k` with 1 gigabute addressable workspace is distributed for 
