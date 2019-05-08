@@ -12,19 +12,19 @@ remarkable piece of software.
 
 There is a very high chance that you heard something about the legend of Arthur Whitney
 and his language; what is less likely is that you have ever met someone who told 
-you he or she is a professional k programmer, because in their areas is often stated in their 
-contracts what they can and cannot talk about, and `k` language doesn't really need 
-any extra publicity anyway.
+you he or she is a professional k programmer, because in their lines of work is often 
+stated in their contracts what they can and cannot talk about, and `k` language
+doesn't really need any extra publicity anyway.
 
 What is much easier to hear is about implementations of similar systems in languages
 such as C++ or Java that involve thousands of lines of code written by large teams 
-and built on top of complex library stacks. What these types are not allowed to tell tou
-is that the projects they are working on are way over budget, totally past deadline and
-implementing an an utterly outdated spec.
+and built on top of complex library stacks and even more complex infrastructure. What 
+these guys are not allowed to tell tou is that the projects they are working on are 
+way over budget, totally past deadline and implementing an an utterly outdated spec.
 
-In comparision, a typical k solution involves several factors of magninude less code, 
-usually implemented by a small and agile team or even a single single individual, rarely
-requires external dependencies and is usually complete on time. The platform is not free
+In comparision, a typical k solution is at least several factors of magninude less code, 
+usually implemented by a small team or even a single individual, rarely requires 
+external dependencies and is usually *complete on time*. The platform is not free
 and is not not cheap, but the k paradigm enables unprecedented efficiency and ease of 
 prototyping, development, testing, deployment and support of highly efficient and robust 
 systems that quickly return the investment.
@@ -62,15 +62,15 @@ the curve will be steep, but we value your time, so it will be brutal.
 
 ## price of k
 
-If you /have/ to ask, you can't afford it. If you know /how/ to ask, you will get it 
+If you **have** to ask, you can't afford it. If you know **how** to ask, you will get it 
 for free and for life.
 
 ## where is k
 
-A trial version of `k` with 1 gigabute addressable workspace is distributed for 
-free via Anaconda in form of x64 builds for Linux and macOS. If you 
-are on Solaris, z/OS, ARM — don't worry, good things come to those who wait.
-If you are on Windows, well, lets not cry over spilled Guinness.
+A trial version of `k` with a draconian limit of 1 gigabyte addressable workspace is 
+distributed for free via Anaconda in form of x64 builds for Linux and macOS. If you 
+are on Solaris, z/OS, ARM, don't worry, good things come to those who wait.
+If you are on Windows, lets not cry over spilled Guinness.
 
 Go to https://anaconda.org/ and follow the instructions. Anaconda shell integration 
 option is recommended. Once you install Anaconda, install shaktidb, which is `k` in 
@@ -85,7 +85,7 @@ use the latest version:
 
 ## starting k
 
-Assiming conda's bin is in you PATH, start a `k` session like so:
+Assiming conda's `bin` is in you PATH, start a `k` session like so:
 
 ```kelas@failbowl ~ $ k
 2019-04-21 15:38:18 40core 512gb avx2 © shakti m2.0 prod
@@ -102,9 +102,9 @@ At any time during `k` session, you can:
 
 ## style of k
 
-People who don't annotate their `k` code, quickly end up coding Java for food, unless 
-they are Arthur Whitney, but we dare to assume you are not quite there yet, so 
-comments start with `/`.  When used inline, prepend a space:
+**Annotations** in your `k` code is the best way not to end up coding Java for food, unless 
+you are Arthur Whitney. We dare to assume you are not quite there yet, so comments start 
+with `/`. When used inline, prepend a space:
 
 ```
 /line comment
@@ -113,7 +113,7 @@ comments start with `/`.  When used inline, prepend a space:
 42 /inline comment
 ```
 
-*Identation* in `k` is a really painful subject. Basically, what you want is *no identation*.
+**Identation** in `k` is a painful subject. Basically, what you want is *no identation*.
 This means if your function body is getting so larger than life that you are tempted to split it
 into lines, you either need to refactor, or your entire train of thought doesn't hold any 
 water at all and you need to go back to the blackboard. Sometimes, however, identation is ok,
@@ -121,10 +121,10 @@ and it is *always* one space. Tabs will be frowned upon, because they will end u
 other people's precious screen real estate, and humans generally get really itchy when it comes 
 to brick and mortar.
 
-*Capitals*, by convention, are used by `k` programmers very sparingly, normally as a last resort 
-measure. This applies both to code and comments. Identifiers in CamelCase is universally 
-considered bad form but sometimes tolerated, and `c_style` is not permitted at all since 
-underscore is an operator. Function and variable identifiers are very often boiled down to 
+**Capitals**, by convention, are used by `k` programmers very sparingly, normally as a last resort 
+measure. This applies both to code and comments. Identifiers in CamelCase is considered bad 
+form but sometimes tolerated, and `c_style` is not permitted at all since underscore is an 
+operator. Function and variable identifiers are very often boiled down to 
 an absolute minumum, short identifiers 1-3 chars long are commonplace, which does not impact 
 readability and comprehension given that definitions are adequately annotated. Short 
 identifiers might sound like a bad idea to a Java programmer not used to identifiers shorter
@@ -138,27 +138,28 @@ problem, because their annotated declarations are also right in front of you:
 kei:42 / kenneth eugene iverson
 ```
 
-*Function* is a first-class citizen, we have lambdas, evals and applys are all there. 
-It takes an effort to believe it, but `k` is actually more lispy than certain Lisps,
+**Function** is a first-class citizen, we have lambdas, evals and applys, everything is 
+all there. It takes a man to believe it, but `k` is actually more lispy than certain Lisps,
 only you don't need to get past any parens. `car` is not quite there because there are 
 no *linked lists*, because `k` is designed to be *fast*.
 
-An empitome of brevity and wit, all functions in `k`, unless stated otherwise, have up 
-to three implict arguments, `x`, `y` and `z`. Here's your first function:
+**Implict arguments** is an empitome of brevity and wit. All functions in `k`, unless 
+stated otherwise, have up to three implict arguments, `x`, `y` and `z` respectively.
+Here are your first functions:
 
 ```
-f:{x+y+z}   /declaration
-f[1;2;3]    /call
-  6         /result
+f:{x+y+z}    /declaration
+f[1;2;3]     /call
+  6          /result
   
-f:{x*x}    /redeclaration
-f 2        /call, can omit brackets
-  5        /gotcha, doesn't happen
+f:{x*x}      /redeclaration
+f 2          /one arg, ok to omit brackets
+  5          /gotcha
 ```
 
 
-As you have correctly guessed, the *assignment* operator in k is a  *colon*. This fact
-has a lot to do with k heritage, which is easily elucidated by a simple, yet profound
+**Assignment** operatior, as you have correctly guessed, a *colon*. This fact
+has a lot to do with k heritage, which is best elucidated by a simple, yet profound
 thought experiment. Consider the following line of code:
 
 ```
@@ -166,11 +167,27 @@ x = x + 1
 ```
 
 Although the meaning of this expression is intuitively clear to any programmer, any
-mathematician will instantly respond with a succinct *"no, it is not"*. This gives
+mathematician will instantly respond with a succinct **"no, it is not"**. This gives
 and excellent hint about how to approach the rest of this document: pretend you never
 wrote a program in your life before, which is a simple trick to overcome the feeling 
-that someone is trying to make you adopt a totally new way of thinking (which, 
-make no mistake, is what this document is all about, but why not give it try?)
+that someone is trying to make you adopt a totally new way of thinking. Make no mistake, 
+this is what this document is all about, but you know you want to give it a try.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
