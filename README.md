@@ -1,4 +1,5 @@
 # k crash course
+not safe for work, not for the faint of heart
 kelas <me@kel.as>
 
 ## who is k
