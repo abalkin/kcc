@@ -57,8 +57,8 @@ keystrokes.
 
 This crash course is not looking to make you an expert k programmer, because
 that takes years. We heard that one can teach oneself Java in 24 hours, but we 
-do not feel qualified to judge about that. We are going to talk about k, and the
-the curve will be steep, but we value your time.
+do not feel qualified to talk about that. We are going to talk about `k`, and the
+the curve will be steep, but we value your time, so it will be brutal.
 
 ## get set
 
